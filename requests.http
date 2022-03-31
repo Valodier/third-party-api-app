@@ -1,0 +1,6 @@
+###Air Index
+GET http://localhost:3000/air
+
+#I spent hours trying to get this to work for, which is absurd because why would an external url know my api key stored on my machine?
+# ###Air Index
+# GET https://api.airvisual.com/v2/nearest_city?key=#{Rails.application.credentials.air_key}
